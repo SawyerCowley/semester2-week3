@@ -21,8 +21,11 @@ int main( void ) {
      * You can define additional variable for intermediate results to make the code simpler.
      * Print out the final results for the 2 roots as float values.
      */
-
+    float discriminant = sqrt(b*b - (4*a*c))
+    root1 = (-b + discriminant) / 2a
+    root2 = (-b - discriminant) / 2a
+    printf("Root 1 is %f\n", root1)
+    printf("Root 2 is %f\n", root1)
     
-
     return 0;
 }
