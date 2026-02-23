@@ -36,7 +36,7 @@
     take_home = take_home - tax_contribution;
 
    //printing data
-    printf("Salary £%i\n",salary);
+    printf("Salary £%.2f\n",salary);
     printf("NI contribution £%.2f\n",ni_contribution);
     printf("Tax contribution £%.2f\n",tax_contribution);
     printf("Take home salary £%.2f\n",take_home);
