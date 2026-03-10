@@ -20,7 +20,7 @@
     //printf("Take home salary £...",var_name);
 
     //setting variables 
-    int salary = 36250;
+    float salary = 36250.00;
     float national_insurance = 0.08;
     float tax_rate = 0.15;
     float take_home = 0;
